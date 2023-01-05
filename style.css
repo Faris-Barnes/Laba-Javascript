@@ -1,0 +1,194 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  display: grid;
+  gap: 20px;
+}
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.but {
+  cursor: pointer;
+}
+
+/* ==========================
+            Завдання 1
+============================= */
+.zad1 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.zad1_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.zad1_item {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  background-color: green;
+  border: 1px solid black;
+}
+.active_zad1 {
+  background-color: grey;
+  opacity: 0.5;
+}
+
+/* ==========================
+            Завдання 2
+============================= */
+.zad2 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+.zad2_container {
+  display: grid;
+  gap: 10px;
+}
+.zad2_field {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgb(87, 87, 250);
+}
+.active_zad2 {
+  background-color: rgb(87, 87, 250);
+}
+
+/* ==========================
+            Завдання 3
+============================= */
+.zad3 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.zad3_block {
+  width: 200px;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  background-color: rgb(87, 87, 250);
+}
+.zad3_field {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ==========================
+            Завдання 4
+============================= */
+.zad4 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(87, 87, 250);
+}
+.zad4_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.zad4_block_left {
+  width: 40%;
+  height: 400px;
+  background-color: white;
+}
+.zad4_buttons {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.zad4_block_right {
+  width: 40%;
+  height: 400px;
+  background-color: white;
+}
+
+/* ==========================
+            Завдання 5
+============================= */
+.zad5 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.block_zad5 {
+  width: 250px;
+  height: 150px;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: coral;
+}
+.menu_setting {
+  display: grid;
+  gap: 5px;
+}
+.setting_item {
+  display: flex;
+  align-items: center;
+}
+/* ==========================
+            Завдання 6
+============================= */
+.zad6 {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+#text_area_zad6 {
+  width: 300px;
+  height: 100px;
+  resize: none;
+}
+.block_zad6 {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.block_parant_zad6 {
+  display: flex;
+  flex-direction: row;
+}
+.block_item {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: red;
+}
+.block_item_white {
+  background-color: white;
+}
+.block_item_black {
+  background-color: black;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="zad1">
+          <h3 class="title">Завдання 1</h3>
+          <div class="zad1_container"></div>
+        </div>
+        <div class="zad2">
+          <h3 class="title">Завдання 2</h3>
+          <div class="zad2_container">
+            <div class="zad2_field">
+              <input class="input_zad2" type="text" placeholder="email" />
+            </div>
+            <div class="zad2_field">
+              <input class="input_zad2" type="text" placeholder="password" />
+            </div>
+            <div class="zad2_field">
+              <textarea
+                class="input_zad2"
+                type="text"
+                placeholder="descriprion"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="zad3">
+          <h3 class="title">Завдання 3</h3>
+          <div class="zad3_block"></div>
+          <div class="zad3_field">
+            <span class="zad3_x">x = </span><span class="zad3_y">y = </span>
+          </div>
+        </div>
+        <div class="zad4">
+          <h3 class="title">Завдання 4</h3>
+          <div class="zad4_block">
+            <div class="zad4_block_left"></div>
+            <div class="zad4_buttons">
+              <button onclick="movedItemRight()" class="but">>></button>
+              <button onclick="movedItemLeft()" class="but"><<</button>
+            </div>
+            <div class="zad4_block_right"></div>
+          </div>
+        </div>
+        <div class="zad5">
+          <h3 class="title">Завдання 5</h3>
+          <div class="menu_setting">
+            <div class="setting_item">
+              <span>width</span>
+              <input
+                type="range"
+                class="range_input_width"
+                min="10"
+                max="600"
+                step="1"
+              />
+            </div>
+            <div class="setting_item">
+              <span>height</span>
+              <input
+                type="range"
+                class="range_input_height"
+                min="0"
+                max="400"
+                step="1"
+              />
+            </div>
+            <div class="setting_item">
+              <span>rotate</span>
+              <input
+                type="range"
+                class="range_input_rotate"
+                min="0"
+                max="360"
+                step="1"
+              />
+            </div>
+            <div class="block_zad5"></div>
+          </div>
+        </div>
+        <div class="zad6">
+          <h3 class="title">Завдання 6</h3>
+          <textarea name="" id="text_area_zad6" cols="30" rows="10"></textarea>
+          <div class="block_zad6"></div>
+          <span class="title_error"></span>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
